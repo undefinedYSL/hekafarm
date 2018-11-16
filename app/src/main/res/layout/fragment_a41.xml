@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF7F7F7"
+    android:orientation="vertical"
+    tools:context=".A41Fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:maxLines="800"
+
+            android:padding="1dp"
+            android:scrollbarFadeDuration="2000"
+            android:scrollbarStyle="outsideInset"
+            android:scrollbars="vertical"
+
+            android:singleLine="false"
+            android:text="\u3000\u3000藏羊又称藏系羊，英文名称Tibetan sheep ，这种羊具有抗严寒、耐粗饲、适应高海拔、体质强壮、行动敏捷、善于爬高走远的特点，但发育成熟晚。是我国三大原始绵羊品种之一。主要分布在青藏高原，青海是主要产区。分布广，家畜中比重最大。依其生态环境，结合生产、经济特点，可分为高原型、山谷型和欧拉型3类。高原型占全省的90%，是藏羊的主体，主要分布在高寒牧区。"
+            android:textColor="#000"
+
+
+            android:textSize="20dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="320dp"
+            android:src="@drawable/zyphoto" />
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

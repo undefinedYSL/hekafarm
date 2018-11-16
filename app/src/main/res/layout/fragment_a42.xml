@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF7F7F7"
+    tools:context=".A42Fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_margin="10dp"
+        android:maxLines="200"
+
+        android:padding="10dp"
+        android:scrollbarFadeDuration="2000"
+        android:scrollbarStyle="outsideInset"
+        android:scrollbars="vertical"
+
+        android:singleLine="false"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="\u3000\u3000藏羊，高原型羊，体格大，身躯长，胸深广，前胸发达开阔，背腰平直，整个体形似长方形；头部粗糙，额部较宽，鼻梁隆起，公母羊多有角，母羊无角者仅占 9.6% ，公羊角粗大，长而扁平，呈螺旋形或捻曲状，尖端向外，向左右伸展，母羊角扁平，比公羊角稍小， 多呈捻曲状， 有的呈小柱角；四肢粗壮，筋腱发达，蹄黑色或深褐色，蹄质坚实；尾瘦短，圆锥形，母羊尾长13.2±1.73厘米。少数羊颈下有肉铃。毛色较杂，体躯白色的占48.41%，体躯有花斑的占44.5%，全白的6.6%， 全黑的占0.6%。毛瓣粗长而明显，头部、腹部、四肢下部着生刺毛。山谷型羊体格小，结构紧凑，似圆桶状。颈稍长，背腰平直；头呈三角形，鼻梁隆起，额部微凸，公羊多有角(占62.1%)，短小，向上向后弯曲，母羊多无角， 部分有小钉角(占10.5%)。后肢多呈刀状，矫健有力，蹄质结实,善爬山远牧。 尾短小，圆锥形，母羊尾长9.8±1.54厘米。根据毛色统计：体躯白色的占60.9%，体躯有花斑的占17.1%，全白的占3.2%，全黑的占18.8%。大渡河和岷江上游的河谷地带，气候干热，风沙很大， 群众多选留黑色羊作种用，如丹巴县全黑羊占97%。山地型羊，随分布地区的不同，体形外貌有异。长期放牧在海拔2800米以上高山地带的体格高大，体躯略成方形，颈粗短，背腰平直；头部粗糙，近似三角形，鼻梁隆起，公母羊多有角。据统计，有角公羊占87.1%，母羊占70.5%。公羊角较发达，角基粗大浑圆，呈螺旋形，母羊角细短，向后扭转；四肢矫健，蹄质结实。尾瘦小，公羊尾长23.8±0.39厘米,母羊尾长22.5±0.19厘米。分别比高原型的公、母羊长10.1、9.3厘米；比山谷型的长13.6、12.7厘米。毛色杂，以体躯白色的居多。分布在矮  藏羊 山区的山地型羊,体格中等,颈细薄，体躯长而浑圆，背腰平直，行走时头颈平直前伸，两耳向后平张,形似箭头，故有“箭杆羊”之称；头较窄长，额宽嘴小，呈锐角三角形，鼻梁隆起，公羊有角或无角，母羊多无角。据调查，115 只公羊中有角的占55.7%、266只母羊中有角的仅20.3%；臀部稍窄，四肢结实。尾圆锥形，公羊尾长17.5±0.27厘米,母羊尾长16.7±0.10厘米。分别比高原型的公、母羊长3.8、 3.5厘米；比山谷型的长7.3、6.9厘米。毛色杂，一般以体躯白色、 头肢杂色者为主。"
+        />
+    </ScrollView>
+</FrameLayout>

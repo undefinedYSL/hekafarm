@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FiveActivity"
+    android:background="#FFF7F7F7"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/toolbar_title"
+        android:id="@+id/toolbar05"/>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center"
+                android:text="研究意义"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="#FFF7F7F7"></View>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"
+                android:layout_margin="5dp"
+                android:text="      自1958年起，青海省河卡种羊场场以“绵羊改良，促进畜牧业发展”为宗旨，一直从事 “青海高原毛肉兼用半细毛羊”的繁育工作，1963年由青海省人民政府和农业部批准，正式确定为培育毛肉兼用半细毛羊种羊场，在严酷的自然环境下，经过20多年几代科技工作者和职工群众艰苦努力的工作，在1987年7月成功培育出了毛肉兼用半细毛羊，各项生产性能达到了育种指标，顺利通过了省级鉴定验收，被省政府命名为“青海高原毛肉兼用半细毛羊”，荣获“青海科技进步一等奖”科技成果奖，在发展高效特色畜牧业，加快畜牧业产业化进程方面，发挥了国有种畜场的带动、示范、辐射功能。"/>
+            <ImageView
+                android:layout_width="970px"
+                android:layout_height="540px"
+                android:layout_gravity="center"
+                android:id="@+id/iv_five_1"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</LinearLayout>

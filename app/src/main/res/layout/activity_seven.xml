@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SevenActivity"
+    android:background="#FFF7F7F7"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/toolbar_title"
+        android:id="@+id/toolbar07"/>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center"
+                android:text="人文环境"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="#FFF7F7F7"></View>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"
+                android:layout_margin="5dp"
+                android:text="      认真开展“两学一做”学习教育，各支部以集中学、联合学，自学的方式扎实学习习近平总书记新系列讲话精神、十九大精神及党纪党规等。牧业党支部、农业党支部开展草原田间课堂，支部书记、联点领导前往牧业草场、农业田间地头开展政策宣讲，机关党支部通过集中宣讲、座谈、讨论等形式学系列讲话、学会议精神，引导党员干部、机关工作人员以“两学一做”学习教育为载体，定期打扫思想灰尘，进行党性体检，提高自身素质与业务工作能力"/>
+            <ImageView
+                android:id="@+id/iv_seven_1"
+                android:layout_width="970px"
+                android:layout_height="540px"
+                android:layout_gravity="center"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</LinearLayout>

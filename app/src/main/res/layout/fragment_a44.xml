@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF7F7F7"
+    tools:context=".A44Fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_margin="10dp"
+        android:maxLines="1000"
+
+        android:padding="10dp"
+        android:scrollbarFadeDuration="2000"
+        android:scrollbarStyle="outsideInset"
+        android:scrollbars="vertical"
+
+        android:singleLine="false"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="     青海高原半细毛羊产于青海省海南藏族自治州、海北藏族自治州等地，是我国绵羊肉质最好的品种之一。该品种羊育种工作于1963年开始，于1987年育成，经青海省政府命名为“青海高原毛肉兼用半细毛羊”。羊毛呈明显或不明显的波状弯曲, 油汗多呈白色或乳黄色。
+\n    品种：青海高原毛肉兼用半细毛羊
+\n    产地：产于青海省海南藏族自治州、海北藏族自治州等地。产区地势高寒，春季营地海拔在2700～3200米，夏季牧地均在4000米以上，年平均气温为0.3～3.6度。    　　
+\n    地理分布: 青海高原半细毛羊主要分布在海西州及海南藏族自治州、海北藏族自治州等培育地及附近    　　\n
+    显著特点：青海高原半细毛羊对严酷的高寒环境条件具有良好的适应性, 对饲养管理条件的改善反应明显。青海半细毛绵羊主产于青海省都兰县巴隆乡，每年向全国各地销售羊肉120万吨，是我国绵羊肉质最好的品种之一    　　
+\n    品种概况    　　
+\n    该品种系采用复杂杂交方式育成。根据含罗姆尼羊血液的多少，分为罗茨新藏和茨新藏两个类型。二者比较，罗茨新藏型头稍宽短，体躯粗深，四肢稍矮，公、母羊都无角；茨新藏型虽含有1 / 4 罗姆尼羊血液，但体型外貌近似茨盖羊，体躯较长，四肢较高。公羊多有螺旋型角，母羊无角或有小角。    　　
+\n    成年公羊剪毛后体重6 4 . 1 -8 5 . 6 公斤, 母羊3 5 . 3 -4 6 . 1 公斤; 成年公羊平均剪毛量为5 . 9 8 公斤, 母羊3 . 1 0 公斤。毛的细度为4 8 -5 8 支, 以5 0 -5 6 支为主。成年公羊平均毛长1 1 . 7 2 厘米, 母羊1 0 . 0 1 厘米。体侧毛净毛率平均为6 1 % 。羊毛呈明显或不明显的波状弯曲, 油汗多呈白色或乳黄色。青海高原半细毛羊对严酷的高寒环境条件具有良好的适应性, 对饲养管理条件的改善反应明显。"
+        />
+    </ScrollView>
+</FrameLayout>

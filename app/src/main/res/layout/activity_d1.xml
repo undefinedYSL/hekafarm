@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".D1Activity"
+    android:background="@drawable/tqyb"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/toolbar_title"
+        android:id="@+id/toolbard1"/>
+
+    <com.loopeer.cardstack.CardStackView
+        android:id="@+id/csk_c"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:padding="12dp">
+
+
+    </com.loopeer.cardstack.CardStackView>
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ysl.hekafarm">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MyActivity" />
+        <activity android:name=".BaseActivity" />
+        <activity android:name=".Aactivity" />
+        <activity android:name=".Bactivity" />
+        <activity android:name=".D1Activity" />
+        <activity android:name=".D2Activity" />
+        <activity android:name=".Cactivity" />
+        <activity android:name=".OneActivity" />
+        <activity android:name=".TwoActivity" />
+        <activity android:name=".ThreeActivity" />
+        <activity android:name=".FourActivity" />
+        <activity android:name=".FiveActivity" />
+        <activity android:name=".SixActivity" />
+        <activity android:name=".SevenActivity" />
+        <activity android:name=".EightActivity" />
+        <activity android:name=".NineActivity" />
+        <activity android:name=".TenActivity" />
+        <activity android:name=".ElevenActivity" />
+        <activity android:name=".TwelveActivity" />
+        <activity android:name=".D3Activity" />
+        <activity android:name=".D4Activity" />
+        <activity android:name=".A1Activity" />
+        <activity android:name=".A2Activity" />
+        <activity android:name=".A3Activity" />
+        <activity android:name=".A4Activity" />
+        <activity android:name=".A111Activity" />
+        <activity android:name=".three1Activity"></activity>
+    </application>
+
+</manifest>

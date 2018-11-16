@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FourActivity"
+    android:background="#FFF7F7F7"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/toolbar_title"
+        android:id="@+id/toolbar04"/>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center"
+                android:text="半细毛羊"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="#FFF7F7F7"></View>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"
+                android:layout_margin="5dp"
+                android:text="      青海高原半细毛羊对严酷的高寒环境条件具有良好的适应性,对饲养管理条件的改善反应明显,公羊多有螺旋型角，
+                母羊无角或有小角,羊毛呈明显或不明显的波状弯曲,油汗多呈白色或乳黄色."/>
+
+            <ImageView
+                android:layout_width="320dp"
+                android:layout_height="320dp"
+                android:layout_gravity="center"
+               android:id="@+id/iv_four_1"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

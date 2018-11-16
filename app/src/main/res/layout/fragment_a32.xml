@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".A32Fragment"
+    android:background="@drawable/tqyb"
+    android:padding="10dp">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:id="@+id/ll_a32_1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/bg_rectangle"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:layout_margin="5dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="风速:"/>
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:layout_margin="5dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="东南风2级"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_a32_2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:layout_below="@id/ll_a32_1"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/bg_rectangle"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:layout_margin="5dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="空气质量:"/>
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:layout_margin="5dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="优"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_a32_3"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:layout_below="@id/ll_a32_2"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/bg_rectangle"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:layout_margin="5dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="温度:"/>
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:layout_margin="5dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="7°C"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_a32_4"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:layout_below="@id/ll_a32_3"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/bg_rectangle"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:layout_margin="5dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="湿度:"/>
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:layout_margin="5dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="65%"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_a32_5"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:layout_below="@id/ll_a32_4"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/bg_rectangle"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:layout_margin="5dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="气压"/>
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:layout_margin="5dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="1009.5mb"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

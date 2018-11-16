@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TwoActivity"
+    android:background="#FFF7F7F7"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/toolbar_title"
+        android:id="@+id/toolbar02"/>
+
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center"
+            android:text="企业文化建设"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:background="#FFF7F7F7"></View>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            android:layout_margin="5dp"
+
+            android:text="      河卡种羊场每年举办“七一”党建活动，开展多项文体活动，场领导以普通职工的身份积极参与，促进了上下关系的和睦 ，极大地激发了职工参加文体活动的热情。在积极参加文体活动的过程中，专长和个性能得到充分体现，成就感与自信心进一步提升；在挥洒汗水、捍卫荣誉的同时，紧张的工作情绪得以舒缓，有助于培养机智顽强、坚持不懈的作风和积极向上、勇于进取的良好心态；在团结协作、共克困难中，团队意识明显增强  ，人际关系更加融洽，精神面貌焕然一新，进一步激发了员工的参与热情，使企业精神、核心价值观更加深入人心，增强了战斗力和向心力，促进了生产、管理、等各项工作的协调发展，同时增强了民族团结进步。 表先进，树典型，通过表彰先进激励斗志，鞭策全场干部职工向被表彰的先进人物  、先进事迹学习。 以身边先进模范宣传  ，加强身边事教育身边人，用他们不平凡的事迹来教育、影响、感召全场党员、干部、职工向模范榜样学习，不忘初心,继续前进,扛起先锋旗全心全意为人民群众服务，从眼前做起，从小事做起，在自己的岗位上兢兢业业,恪守初心,传递正能量。"/>
+        <!--<ImageView-->
+            <!--android:layout_width="320dp"-->
+            <!--android:layout_height="320dp"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:id="@+id/iv_two_1"/>-->
+        <ImageView
+            android:layout_width="320dp"
+            android:layout_height="320dp"
+            android:layout_gravity="center"
+            android:id="@+id/iv_two_2"/>
+        <ImageView
+            android:layout_width="320dp"
+            android:layout_height="320dp"
+            android:layout_gravity="center"
+            android:id="@+id/iv_two_3"/>
+        <!--<ImageView-->
+            <!--android:layout_width="320dp"-->
+            <!--android:layout_height="320dp"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:id="@+id/iv_two_4"/>-->
+
+    </LinearLayout>
+</ScrollView>
+
+
+
+</LinearLayout>

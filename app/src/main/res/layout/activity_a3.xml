@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".A3Activity"
+    android:background="#FFF7F7F7">
+
+    <include
+        layout="@layout/toolbar_title"
+        android:id="@+id/toolbara3"/>
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tl_a3"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="?attr/colorPrimary"
+        app:tabMode="fixed"
+        app:tabGravity="center"
+        android:layout_below="@id/toolbara3"
+        app:tabTextAppearance="@style/TabLayoutTextStyle">
+
+    </android.support.design.widget.TabLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_a3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tl_a3">
+
+
+    </android.support.v4.view.ViewPager>
+
+</RelativeLayout>

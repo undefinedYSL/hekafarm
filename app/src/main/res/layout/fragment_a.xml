@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF7F7F7"
+    android:layout_margin="1dip">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ViewFlipper
+        android:id="@+id/vf_a"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="5dip"
+        android:layout_marginBottom="8dip"
+        android:flipInterval="3000"
+        android:layout_alignParentTop="true">
+
+        <com.ysl.hekafarm.XCRoundRectImageView
+            android:id="@+id/iv_show_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/base_show1"/>
+
+        <com.ysl.hekafarm.XCRoundRectImageView
+            android:id="@+id/iv_show_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/base_show2"/>
+
+        <com.ysl.hekafarm.XCRoundRectImageView
+            android:id="@+id/iv_show_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/base_show3"/>
+
+        <com.ysl.hekafarm.XCRoundRectImageView
+            android:id="@+id/iv_show_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/base_show4"/>
+    </ViewFlipper>
+    <LinearLayout
+        android:id="@+id/show_dot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_below="@id/vf_a"
+        android:layout_marginBottom="2dip">
+        <View
+            android:id="@+id/dot1"
+            android:layout_width="5dip"
+            android:layout_height="5dip"
+            android:layout_margin="1.5dip"
+            android:background="@drawable/dot_focused">
+        </View>
+        <View
+            android:id="@+id/dot2"
+            android:layout_width="5dip"
+            android:layout_height="5dip"
+            android:layout_margin="1.5dip"
+            android:background="@drawable/dot_normal">
+        </View>
+        <View
+            android:id="@+id/dot3"
+            android:layout_width="5dip"
+            android:layout_height="5dip"
+            android:layout_margin="1.5dip"
+            android:background="@drawable/dot_normal">
+        </View>
+        <View
+            android:id="@+id/dot4"
+            android:layout_width="5dip"
+            android:layout_height="5dip"
+            android:layout_margin="1.5dip"
+            android:background="@drawable/dot_normal">
+        </View>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_4btn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:layout_below="@id/show_dot"
+        android:layout_marginBottom="2dip">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/iv_btn41"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:src="@drawable/btn41"/>
+
+            <TextView
+                android:id="@+id/tv_btn41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/iv_btn41"
+                android:gravity="center"
+                android:text="新闻资讯"
+                android:textSize="16sp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/iv_btn42"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:src="@drawable/btn42"/>
+
+            <TextView
+                android:id="@+id/tv_btn42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/iv_btn42"
+                android:gravity="center"
+                android:text="河卡产品"
+                android:textSize="16sp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/iv_btn43"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:src="@drawable/btn43"/>
+
+            <TextView
+                android:id="@+id/tv_btn43"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/iv_btn43"
+                android:gravity="center"
+                android:text="草场监测"
+                android:textSize="16sp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/iv_btn44"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:src="@drawable/btn44"/>
+
+            <TextView
+                android:id="@+id/tv_btn44"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/iv_btn44"
+                android:gravity="center"
+                android:text="河卡藏羊"
+                android:textSize="16sp"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_a"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/ll_4btn"
+        android:dividerHeight="8dp"
+        android:layout_marginBottom="1dip">
+
+    </android.support.v7.widget.RecyclerView>
+
+</RelativeLayout>

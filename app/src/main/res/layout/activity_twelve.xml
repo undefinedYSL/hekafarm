@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TwelveActivity"
+    android:background="#FFF7F7F7"
+    android:orientation="vertical">
+
+
+
+    <include
+        layout="@layout/toolbar_title"
+        android:id="@+id/toolbar12"/>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center"
+                android:text="成果展示"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="#FFF7F7F7"></View>
+
+            <ImageView
+                android:layout_width="970px"
+                android:layout_height="540px"
+                android:layout_gravity="center"
+               android:id="@+id/iv_twelve_1"/>
+            <ImageView
+                android:layout_width="970px"
+                android:layout_height="540px"
+                android:layout_gravity="center"
+                android:id="@+id/iv_twelve_2"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"
+                android:layout_margin="5dp"
+                android:text="      表先进，树典型，通过表彰先进激励斗志，鞭策全场干部职工向被表彰的先进人物、先进事迹学习 。 以身边先进模范宣传 ，加强身边事教育身边人，用他们不平凡的事迹来教育、影响、感召全场党员、干部、职工向模范榜样学习，不忘初心，继续前进，扛起先锋旗全心全意为人民群众服务，从眼前做起，从小事做起，在自己的岗位上兢兢业业，恪守初心，传递正能量。"
+                />
+
+            <ImageView
+                android:layout_width="970px"
+                android:layout_height="540px"
+                android:layout_gravity="center"
+                android:id="@+id/iv_twelve_3"/>
+            <ImageView
+                android:layout_width="970px"
+                android:layout_height="540px"
+                android:layout_gravity="center"
+                android:id="@+id/iv_twelve_4"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"
+                android:layout_margin="5dp"
+                android:text="      种羊场领导及工作人员切实为民，服务为民，为造福广大农民的生活，发展繁荣农村经济而努力工作，当地村社纷纷送来锦旗以表感谢。"/>
+
+            <ImageView
+                android:layout_width="970px"
+                android:layout_height="540px"
+                android:layout_gravity="center"
+                android:id="@+id/iv_twelve_5"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"
+                android:layout_margin="5dp"
+                android:text="      在党建工作的不断进行下，种羊场先后在2016年和2017年被评为先进基层党组织和先进党组织。"/>
+
+            <ImageView
+                android:layout_width="970px"
+                android:layout_height="540px"
+                android:layout_gravity="center"
+                android:id="@+id/iv_twelve_6"/>
+         <!--   <ImageView
+                android:layout_width="970px"
+                android:layout_height="540px"
+                android:layout_gravity="center"
+                android:id="@+id/iv_twelve_7"/>-->
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThreeActivity"
+    android:background="#FFF7F7F7"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/toolbar_title"
+        android:id="@+id/toolbar03"/>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center"
+                android:text="产业发展"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="#FFF7F7F7"></View>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"
+                android:layout_margin="5dp"
+                android:text="      积极调整产业结构，利用成熟的技术力量和机械化程度高的优势，有效利用土地资源，抓住国家农垦改革有利政策，大力发展特高原色农牧产业。以牧草种植为重点，合理布局草产业发展格局，坚持走种植规模化、品种优良化、生产标准化、经营产业化、加工精细化的路子，结合本地区“有机产品”认证的优势 ，进一步发展“牛羊生态健康养殖”业，同时，紧紧抓住国家加强草原生态保护的重大历史机遇，按照“合理布局、加大投入、统筹发展、提质增效”的思路  ，用产业化的思维和循环经济的理念谋划产业发展，努力推动农牧业健康发展  ，不断加大草畜转化力度，提高种草养畜的效益，逐步形成  “以草养畜，以畜促草”的有机循环农牧业。"/>
+            <ImageView
+                android:layout_width="320dp"
+                android:layout_height="320dp"
+                android:layout_gravity="center"
+                android:id="@+id/iv_three_1"/>
+            <ImageView
+                android:layout_width="320dp"
+                android:layout_height="320dp"
+                android:layout_gravity="center"
+                android:id="@+id/iv_three_2"/>
+            <ImageView
+                android:layout_width="320dp"
+                android:layout_height="320dp"
+                android:layout_gravity="center"
+                android:id="@+id/iv_three_3"/>
+            <ImageView
+                android:layout_width="320dp"
+                android:layout_height="320dp"
+                android:layout_gravity="center"
+           android:id="@+id/iv_three_4" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</LinearLayout>

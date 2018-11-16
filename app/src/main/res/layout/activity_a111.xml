@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".A111Activity"
+    android:background="#FFF7F7F7"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/toolbar_title"
+        android:id="@+id/toolbar11"/>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="河卡种羊场1111"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="#FFF7F7F7"></View>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"
+                android:layout_margin="5dp"
+                android:text="      青海省河卡种羊场始建于1953年，占地面积27.73万亩，是培育“青海毛肉兼用半细毛羊”种羊场，1999年由省畜牧厅移交给省农牧控股公司，现隶属青海省三江集团有限责任公司。"/>
+            <ImageView
+                android:id="@+id/iv_one_1"
+                android:layout_width="970px"
+                android:layout_height="540px"
+                android:layout_gravity="center"/>
+            <ImageView
+                android:id="@+id/iv_one_2"
+                android:layout_width="970px"
+                android:layout_height="540px"
+                android:layout_gravity="center"
+                />
+            <ImageView
+                android:layout_width="970px"
+                android:layout_height="540px"
+                android:layout_gravity="center"
+                android:id="@+id/iv_one_3"/>
+            <ImageView
+                android:layout_width="970px"
+                android:layout_height="540px"
+                android:layout_gravity="center"
+                android:id="@+id/iv_one_4"/>
+            <ImageView
+                android:layout_width="970px"
+                android:layout_height="540px"
+                android:layout_gravity="center"
+                android:id="@+id/iv_one_5"/>
+            <ImageView
+                android:layout_width="970px"
+                android:layout_height="540px"
+                android:layout_gravity="center"
+                android:id="@+id/iv_one_6"/>
+            <ImageView
+                android:layout_width="970px"
+                android:layout_height="540px"
+                android:layout_gravity="center"
+                android:id="@+id/iv_one_7"/>
+            <ImageView
+                android:layout_width="970px"
+                android:layout_height="540px"
+                android:layout_gravity="center"
+                android:id="@+id/iv_one_8"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</LinearLayout>

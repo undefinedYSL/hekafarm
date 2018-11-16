@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NineActivity"
+    android:background="#FFF7F7F7"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/toolbar_title"
+        android:id="@+id/toolbar09"/>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"
+                android:text="领导关怀"
+                android:layout_gravity="center"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="#FFF7F7F7"></View>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"
+                android:layout_margin="5dp"
+                android:text="      种羊场党委心系群众，对贫困户和特困户开展慰问活动，对因病致困致残的党员、老党员、因病致贫的特困职工群众、生活困难的干部职工群众和奋战在生产一线的职工进行走访慰问，做到不缺一户、不漏一人。"
+                />
+
+            <ImageView
+                android:layout_width="970px"
+                android:layout_height="540px"
+                android:layout_gravity="center"
+                android:id="@+id/iv_nine_1"/>
+            <ImageView
+                android:layout_width="970px"
+                android:layout_height="540px"
+                android:layout_gravity="center"
+                android:id="@+id/iv_nine_2"/>
+            <ImageView
+                android:layout_width="970px"
+                android:layout_height="540px"
+                android:layout_gravity="center"
+                android:id="@+id/iv_nine_3"/>
+            <ImageView
+                android:layout_width="970px"
+                android:layout_height="540px"
+                android:layout_gravity="center"
+                android:id="@+id/iv_nine_4"/>
+            <ImageView
+                android:layout_width="970px"
+                android:layout_height="540px"
+                android:layout_gravity="center"
+                android:id="@+id/iv_nine_5"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</LinearLayout>

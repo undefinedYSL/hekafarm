@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EightActivity"
+    android:background="#FFF7F7F7"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/toolbar_title"
+        android:id="@+id/toolbar08"/>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center"
+                android:text="精准扶贫"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="#FFF7F7F7"></View>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"
+                android:layout_margin="5dp"
+                android:text="      2017年1月14日，青海省在全省扶贫开发工作第二次会议上提出：我省将以习近平总书记扶贫开发战略思想为指导，深入贯彻“  四个全面  ”战略布局和新发展理念，围绕“四个扎扎实实” 重大要求和“两不愁三保障”目标任务，确保完成11个贫困县摘帽、500个贫困村退出、14万贫困人口脱贫的年度目标任务。
+      2017年年度青海省扶贫会议工作会议召开，会中对2017年所取得的成果进行了总结和表彰。"/>
+
+            <ImageView
+                android:layout_width="970px"
+                android:layout_height="540px"
+                android:layout_gravity="center"
+               android:id="@+id/iv_eight_1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"
+                android:layout_margin="5dp"
+                android:text="      2018年2月5日至6日，青海省省委省政府召开全省扶贫开发工作会议。2018年4月中旬至5月上旬，青海省省纪委监委组成6个调研督导组，对全省15个深度贫困县扶贫领域腐败和作风问题专项治理情况进行了调研督导。调研督导全程突出“精准”，精准谋划、精准培训、精准检查、精准研判。
+      河卡种羊场于2017年精准识别贫困户共40户自筹70万元扶贫资金,购买羊960只、牛128头，按照农户自愿的原则 ，将牛羊进行分配,愿意养羊的每户免费提供给40只，愿意养牛的每户免费提供给8头 ，与贫困户签订了协议 ， 明确了养殖规定的与畜牧大队干部的职责。2018年年初 ,  对扶贫工作开展“回头看”“向前走”， 场党委、牧业大队党支部对精准扶贫户进行了摸底调查，通过精准扶贫职工群众的思想有了大幅度改观，扶贫先扶志 ，实现了思想脱贫，据调查精准扶贫户羊羔繁活率达到了100%，生产热情高涨 ，场党委的初心得到了职工群众认可。"/>
+            <ImageView
+                android:layout_width="970px"
+                android:layout_height="540px"
+                android:layout_gravity="center"
+                android:id="@+id/iv_eight_2"/>
+            <ImageView
+                android:layout_width="970px"
+                android:layout_height="540px"
+                android:layout_gravity="center"
+                android:id="@+id/iv_eight_3"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</LinearLayout>
